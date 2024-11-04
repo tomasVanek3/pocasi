@@ -28,6 +28,11 @@ function getCityTemp(cityName, id){
     });
 
 }
+function ostatniMesta(){
+    getCityTemp("Dobronín", "dobronin");
+    getCityTemp("Jihlava", "jihlava");
+}
+
 function mestoPodlePocasi(){
     const input_city = document.getElementById("input_city").value;
     getCityTemp(input_city, "city");
