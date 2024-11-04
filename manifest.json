@@ -1,0 +1,22 @@
+{
+    "_comment1": "Povinné položky",
+    "name": "Kvadratické rovnice",         
+    "short_name": "Rovnice",             
+  
+    "_comment2": "Ikony aplikace v různých velikostech",
+    "icons": [
+      {
+        "src": "/icons/telefon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/icons/telefon2max.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/index.html",
+    "display": "standalone"
+    
+}
